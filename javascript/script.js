@@ -35,7 +35,8 @@ async function getGames() {
         console.log(games[i].rating);
         console.log(games[i].tags.length);
 
-        resultsContainer.innerHTML += `<div class="results">Game: ${games[i].name}<br> Rating: ${games[i].rating}<br>
+        resultsContainer.innerHTML += `<div class="results">Game: ${games[i].name}<br>
+        Rating: ${games[i].rating}<br>
         Amount of tags: ${games[i].tags.length}</div > `
     }
 
