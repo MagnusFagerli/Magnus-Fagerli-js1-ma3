@@ -1,17 +1,3 @@
-// Question One
-function division(a, b) {
-    return a % b;
-}
-
-// Converted to arrow function below:
-
-division = (a, b) => { return a % b; }
-
-
-
-
-// Question Two
-
 const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating/";
 
 const resultsContainer = document.querySelector(".results");
